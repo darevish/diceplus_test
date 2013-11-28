@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/roll_face"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/roll_face" />
+	
+		<TextView
+			android:id="@+id/orientation_data"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/orientation_data" />
+		
+		<TextView
+			android:id="@+id/accelerometer_data"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/accelerometer_data" />
+		
+		<TextView
+			android:id="@+id/temperature_data"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/temperature_data" />
+		
+		<TextView
+			android:id="@+id/battery_state"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/battery_state" />
+		
+		<TextView
+			android:id="@+id/tap_data"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/tap_data" />
+		
+		<TextView
+			android:id="@+id/proximity_data"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/proximity_data" />
+		
+		<TextView
+			android:id="@+id/magnetometer_data"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/magnetometer_data" />
+		
+			<TextView
+			android:id="@+id/touch_data"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/touch_data" />
+		
+		<TextView
+			android:id="@+id/led_state"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/led_state" />
+		
+		<TextView
+			android:id="@+id/power_mode"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/power_mode" />
+		
+		<TextView
+			android:id="@+id/subscription_change"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/subscription_change" />
+									
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal" >
+		
+    		<CheckBox
+				android:id="@+id/side_1_mask"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="1" />
+									
+    		<CheckBox
+				android:id="@+id/side_2_mask"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="2" />
+									
+    		<CheckBox
+				android:id="@+id/side_3_mask"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="3" />
+									
+    		<CheckBox
+				android:id="@+id/side_4_mask"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="4" />
+									
+    		<CheckBox
+				android:id="@+id/side_5_mask"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="5" />
+									
+    		<CheckBox
+				android:id="@+id/side_6_mask"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="6" />
+									
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal" >
+		
+    		<EditText
+				android:id="@+id/red_color"
+				android:inputType="number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/red_color" />
+									
+    		<EditText
+				android:id="@+id/green_color"
+				android:inputType="number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/green_color" />
+									
+    		<EditText
+				android:id="@+id/blue_color"
+				android:inputType="number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/blue_color" />
+									
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal" >
+		
+    		<Button
+				android:id="@+id/blink_animation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/blink_animation" />
+									
+    		<Button
+				android:id="@+id/fade_animation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/fade_animation" />
+									
+		</LinearLayout>
+		
+	</LinearLayout>
+			
+</ScrollView>

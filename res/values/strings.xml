@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">dice_test2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="roll_face">Roll Face</string>
+    <string name="orientation_data">Orientation</string>
+    <string name="accelerometer_data">Accelerometer</string>
+    <string name="temperature_data">Temperature</string>
+    <string name="battery_state">Battery State</string>
+    <string name="tap_data">Tap Data</string>
+    <string name="proximity_data">Proximity</string>
+    <string name="magnetometer_data">Magnetometer</string>
+    <string name="touch_data">Touch Data</string>
+    <string name="led_state">Led State</string>
+    <string name="power_mode">Power Mode</string>
+    <string name="subscription_change">Subscription change: </string>
+    
+    <string name="blink_animation">Blink</string>
+    <string name="fade_animation">Fade</string>
+    
+    <string name="red_color">Red</string>
+    <string name="green_color">Green</string>
+    <string name="blue_color">Blue</string>
+    
+</resources>
